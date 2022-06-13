@@ -10,7 +10,7 @@ One of the reasons that I used this library is because most of the work is done 
 Like you need to just enter the Magnetic Declination of the city you are in and then choose what axis of the Compass out of x and y you need the directions to be in. Like this:
 
 HMC5883L_Simple Compass;
-Compass.SetDeclination(23, 35, 'E');  
+Compass.SetDeclination(10, 17, 'W'); //Declination for TORONTO, CANADA  
 float heading = Compass.GetHeadingDegrees();
 
 Now, that I used the Library and can use the Compass Module with the arduino. For the connections of Compass Module to Arduino, I connected them as follows:
