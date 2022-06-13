@@ -14,9 +14,9 @@ Compass.SetDeclination(10, 17, 'W'); //Declination for TORONTO, CANADA
 float heading = Compass.GetHeadingDegrees();
 
 Now, that I used the Library and can use the Compass Module with the arduino. For the connections of Compass Module to Arduino, I connected them as follows:
-VCC to Vin
-GND to GND
-SCL to A5
+VCC to Vin,
+GND to GND,
+SCL to A5, and
 SDA to A4
 
 SCL and SDA are used the I2C communication where SCL is the clock and SDA is for the data.
